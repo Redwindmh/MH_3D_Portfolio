@@ -17,6 +17,7 @@ const FeedbackCard = ({index,testimonial,name,designation,company,image}) => (
           </p>
           <p className='mt-1 text-secondary text-[12px]'>{designation}&nbsp;of&nbsp;{company}</p>
         </div>
+        <img src={image} alt={`feedback_from_${name}`} className="w-10 h-10 rounded-full" />
       </div>
     </div>
   </motion.div>
@@ -38,4 +39,4 @@ const Feedbacks = () => {
   )
 }
 
-export default Feedbacks
+export default SectionWrapper(Feedbacks, '')
