@@ -38,6 +38,9 @@ const Contact = () => {
           <button type='submit' className='bg-tertiary px-8 py-3 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hover:bg-white hover:text-tertiary focus:ring focus:ring-red-500'>{loading?'Sending your message...':"Send"}</button>
         </form>
       </motion.div>
+      <motion.div variants={slideIn('right', 'tween', 0.2, 1)} className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
+        <EarthCanvas />
+      </motion.div>
     </div>
   )
 }
