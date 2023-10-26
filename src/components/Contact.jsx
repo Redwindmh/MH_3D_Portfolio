@@ -5,16 +5,42 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
+import { templateID, serviceID, myName, myEmail, emailJSKey } from '../assets/keys'
 
 const Contact = () => {
   const formRef = useRef();
-  const [form,setForm] = useState({
+  const [form, setForm] = useState({
     name: '',
     email: '',
     message: '',
   })
   const [loading, setLoading] = useState(false)
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setLoading(true)
+
+    emailjs.send(
+      serviceID,
+      templateID,
+      {
+        from_name: form.name,
+        to_name: myName,
+        from_email: form.email,
+        to_email: myEmail,
+        message: form.message,
+      },
+      emailJSKey
+    )
+    .then(()=> {
+      setLoading(false)
+      alert('Thanks for your message!')
+
+      console.log("error")
+
+      alert('There seems to be an issue')
+    })
+  }
+
   const handleSubmit = (e) => {}
 
   return (
