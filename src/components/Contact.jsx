@@ -17,6 +17,11 @@ const Contact = () => {
   const [loading, setLoading] = useState(false)
   const handleChange = (e) => {
     const { name, value } = e.target
+    setForm({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
     setLoading(true)
 
     emailjs.send(
@@ -35,16 +40,22 @@ const Contact = () => {
       setLoading(false)
       alert('Thanks for your message!')
 
-      console.log("error")
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    },(error) => {
+      setLoading(false)
+
+      console.log(error)
 
       alert('There seems to be an issue')
     })
   }
 
-  const handleSubmit = (e) => {}
-
   return (
-    <div className="xl:mt-2 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
