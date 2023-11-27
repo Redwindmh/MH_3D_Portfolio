@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
@@ -11,14 +12,14 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[red]"/>
           <div className="w-1 sm:h-80 h-40 bg-gradient-to-b from-red-600 to-black-500"/>
         </div>
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi! I'm <span className="text-[red]">Malcolm</span></h1>
+        <div className=''>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi! I'm <span className="text-[red]">Malcolm</span>,</h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm your friendly neighborhood technomancer.
+            your friendly neighborhood&nbsp;<Link className='absolute z-10' activeclassname='active' to='/technomancy'>technomancer</Link>
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      <ComputersCanvas className='-z-10'/>
       <div className="absolute bottom-1 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
