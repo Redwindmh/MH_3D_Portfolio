@@ -38,7 +38,7 @@ const Works = () => {
       </motion.div>
       <div className="w-full flex">
         <motion.p variants={fadeIn("","",0.1,1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-30px' >
-          Here are some projects I've done that I feel showcase what I've studied so far.
+          Here are some projects I've done that I feel showcase what I've learned so far.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
@@ -48,4 +48,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, '')
+export default SectionWrapper(Works, 'experience')
