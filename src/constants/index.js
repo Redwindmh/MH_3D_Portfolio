@@ -25,6 +25,8 @@ import {
   threejs,
 } from "../assets";
 
+import redsetta from "../assets/webapps/redsetta.png";
+
 export const navLinks = [
   {
     id: "about",
@@ -220,7 +222,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: redsetta,
     source_code_link: "https://github.com/",
   },
   {

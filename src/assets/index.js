@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import redsetta from "./webapps/redsetta.png"
+
 export {
   logo,
   backend,
@@ -59,4 +61,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  redsetta,
 };
