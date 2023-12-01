@@ -31,6 +31,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import redsetta from "./webapps/redsetta.png"
+import tlon from "./webapps/tlon.png"
+
 
 export {
   logo,
@@ -62,4 +64,5 @@ export {
   jobit,
   tripguide,
   redsetta,
+  tlon,
 };

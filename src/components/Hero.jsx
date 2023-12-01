@@ -1,8 +1,9 @@
-import React from 'react'
+import { React, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
+import Sparkle from 'react-sparkle'
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
         <div className=''>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi! I'm <span className="text-[red]">Malcolm</span>,</h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            your friendly neighborhood&nbsp;<Link className='absolute z-10' activeclassname='active' to='/technomancy'>technomancer</Link>
+            your friendly neighborhood&nbsp;<span className='md:hidden'><br/></span><Link className='absolute z-10' activeclassname='active' to='/technomancy'>technomancer <Sparkle flickerSpeed={'slowest'} color={'random'}/></Link>
           </p>
         </div>
       </div>

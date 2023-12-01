@@ -26,6 +26,8 @@ import {
 } from "../assets";
 
 import redsetta from "../assets/webapps/redsetta.png";
+import tlon from "../assets/webapps/tlon.png";
+
 
 export const navLinks = [
   {
@@ -223,7 +225,7 @@ const projects = [
       },
     ],
     image: redsetta,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Redwindmh/Redsetta_Stone",
   },
   {
     name: "Redwindstagram",
@@ -260,7 +262,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: tlon,
     source_code_link: "https://github.com/Redwindmh/The-Legend-of-Nina--Jin-s-Awakening",
   },
 ];
