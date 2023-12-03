@@ -33,12 +33,12 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My Portfolio</p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <p className={styles.sectionSubText}>Here is a selection of some of my projects</p>
+        <h2 className={styles.sectionHeadText}>Portfolio</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p variants={fadeIn("","",0.1,1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-30px' >
-          Here are some projects I've done that I feel showcase what I've learned so far.
+          These are just a few of the projects I've done that I feel showcase what I'm capable of and I've learned so far.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

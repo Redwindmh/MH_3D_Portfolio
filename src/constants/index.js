@@ -181,10 +181,10 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Malcolm proved me wrong.",
-    name: "Luna",
-    designation: "Poet",
-    company: "Luna",
+      "I thought it was impossible to make a website as beautiful as our's, but Malcolm proved me wrong.",
+    name: "Kay P.",
+    designation: "CEO",
+    company: "SDSC",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {

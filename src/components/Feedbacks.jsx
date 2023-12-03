@@ -28,7 +28,7 @@ const Feedbacks = () => {
     <div className='mt-12 bg-gradient-to-b from-tertiary to-black rounded-[20px]'>
       <div className={`${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Here's what they all say</p>
+          <p className={styles.sectionSubText}>Here are some words from my clients</p>
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
         </motion.div>
       </div>

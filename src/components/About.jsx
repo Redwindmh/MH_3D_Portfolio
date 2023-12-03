@@ -30,10 +30,10 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        This is where my intro is going to go once I write it, silly.
+        I am a web developer who also dabbles in app development and cyber security, with extensive experience in the field of translation.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
