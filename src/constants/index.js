@@ -15,10 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -27,6 +23,10 @@ import {
 
 import redsetta from "../assets/webapps/redsetta.png";
 import tlon from "../assets/webapps/tlon.png";
+import atoz from "../assets/company/atoz3.png";
+import ask from "../assets/company/ASK+Publishing.jpeg"
+import rnc from "../assets/company/RNC1.svg"
+import htlogo from "../assets/HT_logo/hendricks-high-resolution-logo-color-on-transparent-background.png"
 
 
 export const navLinks = [
@@ -127,7 +127,7 @@ const experiences = [
   {
     title: "Translator",
     company_name: "AtoZ English",
-    icon: starbucks,
+    icon: atoz,
     iconBg: "#383E56",
     date: "Sep 2011 - Aug 2014",
     points: [
@@ -140,7 +140,7 @@ const experiences = [
   {
     title: "Editor",
     company_name: "ASK Publishing",
-    icon: tesla,
+    icon: ask,
     iconBg: "#E6DEDD",
     date: "Aug 2014 - Oct 2021",
     points: [
@@ -153,7 +153,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "RNC",
-    icon: shopify,
+    icon: rnc,
     iconBg: "#383E56",
     date: "Dec 2021 - Feb 2022",
     points: [
@@ -166,7 +166,7 @@ const experiences = [
   {
     title: "Technomancer",
     company_name: "Freelance",
-    icon: meta,
+    icon: htlogo,
     iconBg: "#E6DEDD",
     date: "Jan 2022 - Present",
     points: [
