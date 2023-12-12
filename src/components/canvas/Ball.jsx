@@ -19,12 +19,12 @@ const Ball = (props) => {
   )
 }
 
-const BallCanvas = ({icon}) => {
+const BallCanvas = ({icon, name}) => {
   return (
     <Canvas gl={{ preserveDrawingBuffer: false }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
-        <Ball imgUrl={icon} />
+        <Ball imgUrl={icon} name={name} />
       </Suspense>
       <Preload all />
     </Canvas>

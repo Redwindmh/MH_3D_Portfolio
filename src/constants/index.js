@@ -15,14 +15,13 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
 import redsetta from "../assets/webapps/redsetta.png";
 import tlon from "../assets/webapps/tlon.png";
+import redwindstagram from "../assets/webapps/redwindstagram_login.png"
+
 import atoz from "../assets/company/atoz3.png";
 import ask from "../assets/company/ASK+Publishing.jpeg"
 import rnc from "../assets/company/RNC1.svg"
@@ -245,7 +244,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: redwindstagram,
     source_code_link: "https://github.com/Redwindmh/Redwindstagram",
   },
   {
