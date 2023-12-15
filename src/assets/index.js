@@ -21,17 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import redsetta from "./webapps/redsetta.png"
 import tlon from "./webapps/tlon.png"
+import redwindstagram from "../assets/webapps/redwindstagram_login.png"
 
 
 export {
@@ -65,4 +57,5 @@ export {
   tripguide,
   redsetta,
   tlon,
+  redwindstagram,
 };
