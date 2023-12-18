@@ -127,7 +127,7 @@ const experiences = [
     title: "Translator",
     company_name: "AtoZ English",
     icon: atoz,
-    iconBg: "#383E56",
+    iconBg: "#fff",
     date: "Sep 2011 - Aug 2014",
     points: [
       "Taught conversational English language classes to learners ranging from toddlers to senior citizens.",
@@ -140,7 +140,7 @@ const experiences = [
     title: "Editor",
     company_name: "ASK Publishing",
     icon: ask,
-    iconBg: "#E6DEDD",
+    iconBg: "#fff",
     date: "Aug 2014 - Oct 2021",
     points: [
       "Authored and edited material for a multitude of books and online courses on topics ranging from conversational English to study materials for the TOEIC, TOEFL, and EIKEN English proficiency tests.",
@@ -166,7 +166,7 @@ const experiences = [
     title: "Technomancer",
     company_name: "Freelance",
     icon: htlogo,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2022 - Present",
     points: [
       "Build full-functioning web apps for--as well as lasting relationships with--individuals and companies.",
