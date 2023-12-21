@@ -28,9 +28,11 @@ const Feedbacks = () => {
     <div className='mt-12 bg-gradient-to-b from-tertiary to-black rounded-[20px]'>
       <div className={`${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Here are some words from my clients</p>
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
         </motion.div>
+        <motion.p variants={fadeIn("","",0.1,1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-30px' >
+          Here are some words from my clients
+        </motion.p>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
         {testimonials.map((testimonial,index) => <FeedbackCard key={testimonial.name} index={index} {...testimonial} />)}
