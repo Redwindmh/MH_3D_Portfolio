@@ -34,7 +34,7 @@ const Feedbacks = () => {
           Here are some words from my clients
         </motion.p>
       </div>
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 justify-center`}>
         {testimonials.map((testimonial,index) => <FeedbackCard key={testimonial.name} index={index} {...testimonial} />)}
       </div>
     </div>

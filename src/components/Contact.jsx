@@ -6,6 +6,9 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 import { templateID, serviceID, myName, myEmail, emailJSKey } from '../assets/keys'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGitAlt, faHtml5, faJsSquare, faPhp, faReact, faSass, faUnity } from '@fortawesome/free-brands-svg-icons'
+import "./sass/contact.scss"
 
 const Contact = () => {
   const formRef = useRef();
@@ -76,7 +79,34 @@ const Contact = () => {
         </form>
       </motion.div>
       <motion.div variants={slideIn('right', 'tween', 0.2, 1)} className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
-        <EarthCanvas />
+        {/* <EarthCanvas className="hidden" /> */}
+
+        <div className="stage-cube-content -z-20">
+            <div className="cube-spinner">
+                <div className="face1">
+                    <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                </div>
+                <div className="face2">
+                    <FontAwesomeIcon icon={faSass} color="#28A4D9" />
+                </div>
+                <div className="face3">
+                    <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                </div>
+                <div className="face4">
+                    <FontAwesomeIcon icon={faUnity} color="#BF4080" />
+                </div>
+                <div className="face5">
+                    <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                </div>
+                <div className="face6">
+                    <FontAwesomeIcon icon={faPhp} color="#8892BF" />
+                </div>
+                <div className="face7">
+                    <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                </div>
+            </div>
+        </div>
+
       </motion.div>
     </div>
   )

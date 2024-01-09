@@ -10,7 +10,7 @@ import { Canvas } from '@react-three/fiber'
 const Model = (props) => {
   const { nodes, materials } = useGLTF('/model.glb')
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null} scale={6}>
       <primitive object={nodes.Hips} />
       <skinnedMesh geometry={nodes.Wolf3D_Glasses.geometry} material={materials.Wolf3D_Glasses} skeleton={nodes.Wolf3D_Glasses.skeleton} />
       <skinnedMesh geometry={nodes.Wolf3D_Body.geometry} material={materials.Wolf3D_Body} skeleton={nodes.Wolf3D_Body.skeleton} />
@@ -28,15 +28,15 @@ const Model = (props) => {
 const ModelCanvas = () => {
   return (
     <Canvas frameLoop="false" shadows camera={{position:[20,3,5], fov: 25}}>
-      {/* <hemisphereLight intensity={3} groundColor="black" />
+      <hemisphereLight intensity={3} groundColor="black" />
       <pointLight intensity={1} />
-      <spotLight position={[-20,50,10]} angle={0.12} penumbra={1} intensity={1} castShadow shadow-mapSize={1024} /> */}
+      <spotLight position={[-20,50,10]} angle={0.12} penumbra={1} intensity={1} castShadow shadow-mapSize={1024} />
 
         <ambientLight intensity={1.25} />
         <ambientLight intensity={0.1} />
         <directionalLight intensity={0.4} />
-      <OrbitControls enableZoom={false} maxPolarAngle={Math.PI/2} minPolarAngle={Math.PI/2} />
-      <Model scale={6} position={[0, -2, 0]}/>
+      <OrbitControls enableZoom={true} maxPolarAngle={Math.PI/2} minPolarAngle={Math.PI/2} />
+      <Model position={[0, -3, 0]} />
     </Canvas>
   )
 }

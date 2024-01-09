@@ -40,7 +40,7 @@ const Works = () => {
           These are just a few of the projects I've done that I feel showcase what I'm capable of and I've learned so far.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 justify-center">
         {projects.map((project,index)=>(<ProjectCard key={`project-${index}`} index={index} {...project}/> ))}
       </div>
     </>
