@@ -20,6 +20,9 @@ const Hero = () => {
           </p>
         </div>
       </div>
+        <div className="mh-avi">
+            <model-viewer camera-controls autoplay ar src="https://d1a370nemizbjq.cloudfront.net/d72f0910-17b1-4242-a773-0272a76a96be.glb" alt="mh_avatar" auto-rotate poster="https://www.pexels.com/photo/close-up-photo-of-clownfish-128756/" modelIsVisible="true" class="absolute h-[700px] w-4/5"></model-viewer>
+        </div>
       {/* <ModelCanvas /> */}
       <div className="absolute bottom-1 w-full flex justify-center items-center">
         <a href="#about">
