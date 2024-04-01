@@ -206,12 +206,50 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Translation Interface",
+    name: "Red Covenants",
     description:
-      "Mac/PC-based app that provides a simple interface to use multiple translation services, including AI, to translated text and uploaded files.",
+      "An online version of the board game Covenants created by Andrew Carl, this is a two player turn-based game I created using React and made playable over the internet using webhooks. It is hosted on my home server, secured using https and a reverse proxy.",
     tags: [
       {
-        name: "tkinter",
+        name: "socket.io",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: redsetta,
+    source_code_link: "https://github.com/Redwindmh/RedCovenants",
+  },
+  {
+    name: "Voice Assistant",
+    description:
+      "A voice assistant I created to make the functions of macro buttons I had originally created useable via voice control.",
+    tags: [
+      {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tlon,
+    source_code_link: "https://github.com/Redwindmh/Nephthys",
+  },
+{
+    name: "Translation Interface",
+    description:
+      "Mac/Windows-based app that provides a simple interface to use multiple translation services, including AI, to translated text and uploaded files.",
+    tags: [
+      {
+        name: "AI",
         color: "blue-text-gradient",
       },
       {
@@ -219,33 +257,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "AI",
+        name: "tkinter",
         color: "pink-text-gradient",
       },
     ],
     image: redsetta,
     source_code_link: "https://github.com/Redwindmh/Redsetta_Stone",
-  },
-  {
-    name: "Redwindstagram",
-    description:
-      "Full-stack web app where users can upload images and share them with other users.",
-    tags: [
-      {
-        name: "laravel",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "linux",
-        color: "green-text-gradient",
-      },
-    ],
-    image: redwindstagram,
-    source_code_link: "https://github.com/Redwindmh/Redwindstagram",
   },
   {
     name: "The Legend of Nina: Jin's Awakening",
@@ -258,11 +275,32 @@ const projects = [
       },
       {
         name: "pygames",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: tlon,
     source_code_link: "https://github.com/Redwindmh/The-Legend-of-Nina--Jin-s-Awakening",
+  },
+  {
+    name: "Redwindstagram",
+    description:
+      "Full-stack web app where users can upload images and share them with other users.",
+    tags: [
+      {
+        name: "linux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: redwindstagram,
+    source_code_link: "https://github.com/Redwindmh/Redwindstagram",
   },
 ];
 

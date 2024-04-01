@@ -33,6 +33,7 @@
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "sass": "^1.69.7",
+    "swiper": "^11.1.0",
     "three": "^0.155.0"
   },
   "browserslist": [

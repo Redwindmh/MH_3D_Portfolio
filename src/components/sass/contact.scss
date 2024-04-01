@@ -22,7 +22,7 @@ $xl: "only screen and (min-width:1200px)";
         padding-top: 18%;
     }
 
-    @media #{$md,$lg} {
+    @media #{$md,"only screen and (min-width:992px) and (max-width:1279px)"} {
         padding-top: 18%;
     }
 }
