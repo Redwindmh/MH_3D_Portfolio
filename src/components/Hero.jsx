@@ -1,8 +1,9 @@
 import { React, useEffect } from "react";
 import { motion } from "framer-motion";
+import { fadeIn, textVariant } from '../utils/motion'
 import { styles } from "../styles";
 import Sparkle from "react-sparkle";
-import { ModelCanvas } from "./canvas";
+import rpmMalcolm from "../assets/ReadyPlayerMe-Avatar.jpeg"
 
 const Hero = () => {
   return (
@@ -33,33 +34,16 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="mh-avi">
-        <model-viewer
-          camera-controls
-          autoplay
-          ar
-          src="https://d1a370nemizbjq.cloudfront.net/d72f0910-17b1-4242-a773-0272a76a96be.glb"
-          alt="mh_avatar"
-          auto-rotate
-          poster="https://www.pexels.com/photo/close-up-photo-of-clownfish-128756/"
-          modelIsVisible="true"
-          class="absolute h-[700px] w-4/5"
-        ></model-viewer>
-      </div>
+      <motion.div className="flex justify-center" whileHover={{ y: -50, scale: 1.2 }}
+        whileTap={{ scale: 0.9 }}
+        transition={{ type: "spring", stiffness: 400, damping: 17 }}>
+        <a href="https://www.linkedin.com/in/malcolm-hendricks-50152a139/" target="_blank">
+          <img title="Click for my LinkedIn!" className="rounded-full border-8 border-black border-t-red-600 sm:h-96 h-72 w-auto mt-96" src={rpmMalcolm} alt="Malcolm" />
+        </a>
+      </motion.div>
       {/* <ModelCanvas /> */}
       <div className="absolute bottom-1 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev
-              animate={{ y: [0, 24, 0] }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
-          </div>
         </a>
       </div>
     </section>

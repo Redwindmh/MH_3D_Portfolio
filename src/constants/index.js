@@ -21,6 +21,7 @@ import {
 import redsetta from "../assets/webapps/redsetta.png";
 import tlon from "../assets/webapps/tlon.png";
 import redwindstagram from "../assets/webapps/redwindstagram_login.png"
+import covenants from "../assets/webapps/covenants-main.png"
 
 import atoz from "../assets/company/atoz3.png";
 import ask from "../assets/company/ASK+Publishing.jpeg"
@@ -81,7 +82,6 @@ const technologies = [
   },
   {
     name: "PHP",
-    // Get php icon
     icon: typescript,
   },
   {
@@ -206,7 +206,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Red Covenants",
+    name: "Covenants",
     description:
       "An online version of the board game Covenants created by Andrew Carl, this is a two player turn-based game I created using React and made playable over the internet using webhooks. It is hosted on my home server, secured using https and a reverse proxy.",
     tags: [
@@ -223,11 +223,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: redsetta,
+    image: covenants,
     source_code_link: "https://github.com/Redwindmh/RedCovenants",
   },
   {
-    name: "Voice Assistant",
+    name: "Nephthys",
     description:
       "A voice assistant I created to make the functions of macro buttons I had originally created useable via voice control.",
     tags: [
@@ -243,10 +243,10 @@ const projects = [
     image: tlon,
     source_code_link: "https://github.com/Redwindmh/Nephthys",
   },
-{
-    name: "Translation Interface",
+  {
+    name: "RedSetta Stone",
     description:
-      "Mac/Windows-based app that provides a simple interface to use multiple translation services, including AI, to translated text and uploaded files.",
+      "A multi-platform app that provides a simple interface to use multiple translation services, including AI, to translated text and uploaded files.",
     tags: [
       {
         name: "AI",

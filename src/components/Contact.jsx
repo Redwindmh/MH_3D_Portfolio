@@ -21,6 +21,7 @@ import {
   faReact,
   faSass,
   faUnity,
+  faLinux,
 } from "@fortawesome/free-brands-svg-icons";
 import "./sass/contact.scss";
 
@@ -147,7 +148,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faUnity} color="#BF4080" />
+              <FontAwesomeIcon icon={faLinux} color="#BF4080" />
             </div>
             <div className="face5">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
