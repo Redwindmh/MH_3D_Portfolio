@@ -226,23 +226,23 @@ const projects = [
     image: covenants,
     source_code_link: "https://github.com/Redwindmh/RedCovenants",
   },
-  {
-    name: "Nephthys",
-    description:
-      "A voice assistant I created to make the functions of macro buttons I had originally created useable via voice control.",
-    tags: [
-      {
-        name: "AI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "python",
-        color: "green-text-gradient",
-      },
-    ],
-    image: tlon,
-    source_code_link: "https://github.com/Redwindmh/Nephthys",
-  },
+  // {
+  //   name: "Nephthys",
+  //   description:
+  //     "A voice assistant I created to make the functions of macro buttons I had originally created useable via voice control.",
+  //   tags: [
+  //     {
+  //       name: "AI",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "python",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: tlon,
+  //   source_code_link: "https://github.com/Redwindmh/Nephthys",
+  // },
   {
     name: "RedSetta Stone",
     description:
