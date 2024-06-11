@@ -185,6 +185,7 @@ const testimonials = [
     designation: "CEO",
     company: "SDSC",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
+    site: "sustainablecdc"
   },
   {
     testimonial:
@@ -193,14 +194,16 @@ const testimonials = [
     designation: "Writer",
     company: "Independent",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
+    site: "marcocian"
   },
   {
     testimonial:
-      "After Malcolm optimized our website, our traffic increased by 50%. We can't thank him enough!",
+      "After Malcolm remade our website from scratch, our traffic increased by 50%. We can't thank him enough!",
     name: "Itsuka T.",
     designation: "CEO",
     company: "Office-t-i",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
+    site: "office-t-i"
   },
 ];
 
