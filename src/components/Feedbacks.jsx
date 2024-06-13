@@ -31,7 +31,7 @@ const Feedbacks = () => {
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
         </motion.div>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-30px' >
-          Here are some words from my clients
+          Here are some of the sites I have built as well as some words from my clients
         </motion.p>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 justify-center`}>

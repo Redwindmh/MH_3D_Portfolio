@@ -20,7 +20,6 @@ import {
   faPhp,
   faReact,
   faSass,
-  faUnity,
   faLinux,
 } from "@fortawesome/free-brands-svg-icons";
 import "./sass/contact.scss";

@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import linkedin from "./linkedin.png";
 
 import redsetta from "./webapps/redsetta.png"
 import tlon from "./webapps/tlon.png"
@@ -51,4 +52,5 @@ export {
   redsetta,
   tlon,
   redwindstagram,
+  linkedin,
 };

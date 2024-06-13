@@ -16,18 +16,20 @@ import {
   figma,
   docker,
   threejs,
+  github,
+  linkedin,
 } from "../assets";
 
 import redsetta from "../assets/webapps/redsetta.png";
 import tlon from "../assets/webapps/tlon.png";
 import redwindstagram from "../assets/webapps/redwindstagram_login.png"
 import covenants from "../assets/webapps/covenants-main.png"
+import nephthys from "../assets/webapps/NephthysCodeSnip.png"
 
 import atoz from "../assets/company/atoz3.png";
 import ask from "../assets/company/ASK+Publishing.jpeg"
 import rnc from "../assets/company/RNC1.svg"
 import htlogo from "../assets/HT_logo/hendricks-high-resolution-logo-color-on-transparent-background.png"
-
 
 export const navLinks = [
   {
@@ -45,6 +47,16 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "github",
+    title: "Contact",
+    image: github,
+  },
+  {
+    id: "linkedin",
+    title: "Contact",
+    image: linkedin,
   },
 ];
 
@@ -229,23 +241,23 @@ const projects = [
     image: covenants,
     source_code_link: "https://github.com/Redwindmh/RedCovenants",
   },
-  // {
-  //   name: "Nephthys",
-  //   description:
-  //     "A voice assistant I created to make the functions of macro buttons I had originally created useable via voice control.",
-  //   tags: [
-  //     {
-  //       name: "AI",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "python",
-  //       color: "green-text-gradient",
-  //     },
-  //   ],
-  //   image: tlon,
-  //   source_code_link: "https://github.com/Redwindmh/Nephthys",
-  // },
+  {
+    name: "Nephthys",
+    description:
+      "A voice assistant I created to make the functions of macro buttons I had originally created useable via voice control.",
+    tags: [
+      {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nephthys,
+    source_code_link: "https://github.com/Redwindmh/Nephthys",
+  },
   {
     name: "RedSetta Stone",
     description:
