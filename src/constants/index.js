@@ -52,11 +52,13 @@ export const navLinks = [
     id: "github",
     title: "Contact",
     image: github,
+    url: "https://github.com/Redwindmh",
   },
   {
     id: "linkedin",
     title: "Contact",
     image: linkedin,
+    url: "https://www.linkedin.com/in/malcolm-hendricks-50152a139",
   },
 ];
 

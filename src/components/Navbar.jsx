@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className="list-none hidden md:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`} onMouseDown={() => setActive(link.title)}>
-              <a href={`#${link.id}`}>{link.image ? <img className="h-6 w-auto hover:scale-125" src={link.image} /> : link.title}</a>
+              <a href={link.url ? link.url : `#${link.id}`}>{link.image ? <img className="h-6 w-auto hover:scale-125" src={link.image} /> : link.title}</a>
             </li>
           ))}
         </ul>
