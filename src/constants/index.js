@@ -45,6 +45,10 @@ export const navLinks = [
     title: "Portfolio",
   },
   {
+    id: "testimonials",
+    title: "Websites",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -193,31 +197,37 @@ const experiences = [
 
 const testimonials = [
   {
+    order: 1,
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our's, but Malcolm proved me wrong.",
+      "We had an immediate need for a website to be able to show investors, and Malcolm came through for us in a pinch.",
     name: "Kay P.",
     designation: "CEO",
     company: "SDSC",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-    site: "sustainablecdc"
+    site: "sustainablecdc",
+    siteImage: "scdc",
   },
   {
+    order: 2,
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Malcolm does.",
+      "Through several versions of the site, Malcolm pressed on with development and even maintenance until I assured him I was satisfied.",
     name: "Mark K.",
     designation: "Writer",
     company: "Independent",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
-    site: "marcocian"
+    site: "marcocian",
+    siteImage: "marksblog",
   },
   {
+    order: 3,
     testimonial:
-      "After Malcolm remade our website from scratch, our traffic increased by 50%. We can't thank him enough!",
+      "After Malcolm remade our website from scratch, we were able to secure a government IT grant. We can't thank him enough!",
     name: "Itsuka T.",
     designation: "CEO",
     company: "Office-t-i",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
-    site: "office-t-i"
+    site: "office-t-i",
+    siteImage: "office-ti",
   },
 ];
 
